@@ -12,7 +12,7 @@ $(document).ready(function(){
         $(slide).hide();
         slideIndex++;
         if (slideIndex > 2) {
-            slideIndex = 1;
+            slideIndex = 0;
         }
 
         slide = slides[slideIndex]
@@ -24,7 +24,7 @@ $(document).ready(function(){
         $(slide).hide();
         slideIndex--;
        if (slideIndex < 0) {
-            slideIndex = 3;
+            slideIndex = 2;
       }
 
       slide = slides[slideIndex];
